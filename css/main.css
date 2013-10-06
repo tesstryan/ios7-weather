@@ -10,14 +10,67 @@ body {
 .weather {
   width: 320px;
   height: 568px;
-  background: url(../img/clear-skies.jpg) 0 0 no-repeat;
+  background: url(../img/thunderstorm.jpg) 0 0 no-repeat;
   margin: 100px auto;
 }
 
 .group {
-  padding: 15px;
-  border-bottom: 1px solid #b1dafa;
+  padding: 10px;
+  padding-bottom: 13px;
+  text-align: right;
+  border-bottom: 1.4px solid #A995C9
 }
+
+
+.group h3 {float: left}
+
+.hours.group {padding-bottom: 20px;
+padding-top: 15px;
+border-bottom: 1.4px solid #A995C9}
+
+.hour.current.rain, .hour.cloudy, .hour {
+float: left;
+padding-right: 10px;
+padding-left: 18px;
+}
+
+.hour.current.rain, .hour.cloudy, .hour h4 {padding-bottom: 50px}
+.hour.current.rain, .hour.cloudy, .hour {text-align: center;
+padding-bottom: 9px;}
+
+.hour.current.rain {
+  background: url(../img/icon_rain.png) 18px 33px no-repeat
+}
+
+.hour.cloudy {
+  background: url(../img/icon_cloudy.png) 21px 25px no-repeat
+}
+
+.hour.rain {
+  background: url(../img/icon_rain.png) 19px 33px no-repeat
+}
+
+.hour {
+  background: url(../img/icon_sunny.png) 19px 29px no-repeat
+}
+
+/* week */
+
+.week.group h4 {float: left;
+text-indent: 10px}
+
+.week.group {padding-top: 50px;
+padding-bottom: 100px;}
+
+.day {padding-bottom: 19px;
+padding-right: 42px;
+background: url(../img/icon_sunny.png) 270px 0px no-repeat;
+}
+
+.day.rain {background: url(../img/icon_rain.png) 270px 0px no-repeat;}
+
+.day.cloudy {background: url(../img/icon_cloudy.png) 270px 0px no-repeat;}
+
 
 /* Now */
 .now {
